@@ -18,6 +18,16 @@ Plugin 'L9'
 "Plugin 'jtratner/vim-flavored-markdown'
 "Plugin 'suan/vim-instant-markdown'
 "Plugin 'nelstrom/vim-markdown-preview'
+"Added by me for html related stuff
+Plugin 'tpope/vim-surround'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+
+Plugin 'honza/vim-snippets'
+Plugin 'bonsaiben/bootstrap-snippets'
+"
+"
 ""python sytax checker
 Plugin 'nvie/vim-flake8'
 "Plugin 'vim-scripts/Pydiction'
@@ -26,7 +36,7 @@ Plugin 'scrooloose/syntastic'
 
 "auto-completion stuff
 "Plugin 'klen/python-mode'
-Plugin 'Valloric/YouCompleteMe'
+" este compleya Plugin 'Valloric/YouCompleteMe'
 "Plugin 'klen/rope-vim'
 Plugin 'davidhalter/jedi-vim'
 "Plugin 'ervandew/supertab'
@@ -58,7 +68,7 @@ set noswapfile
 "
 ""turn on numbering
 set nu
-
+set rnu
 "python with virtualenv support
 "py << EOF
 "import os.path
